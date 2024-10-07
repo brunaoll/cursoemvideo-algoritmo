@@ -1,0 +1,132 @@
+	Escreval("Olá, Mundo!")
+Escreval("----------------------")
+	Escreva("Qual seu nome? ")
+	Leia(Nome)
+	Escreval("Olá ", Nome, ",é um prazer te conhecer!")
+Escreval("----------------------")
+	Escreva("Nome do Funcionário: ")
+	Leia(nf)
+	Escreva("Salário: ")
+	Leia(Sal)
+	Escreva("O funcionário ", nf, " tem um salário de R$", sal, " em 	Junho.")
+Escreval("----------------------")
+	Escreva("Digite um valor: ")
+	Leia(v1)
+	Escreva("Digite outro valor: ")
+	Leia(v2)
+	S <- v1 + v2
+	Escreva("A soma entre", v1, " e", v2, " é igual a", S)
+Escreval("----------------------")
+	Escreva("Nota 1: ")
+	Leia(n1)
+	Escreva("Nota 2: ")
+	Leia(n2)
+	Med <- (n1 + n2) / 2
+	Escreva("A média entre ", n1, " e ", n2, " é igual a ", Med)
+Escreval("----------------------")
+	Escreva("Digite um numero: ")
+	Leia(num)
+	Ant <- num - 1
+	Suc <- num + 1
+	Escreval("O antecessor de ", num, " e ", Ant)
+	Escreval("O sucessor de ", num, " e ", Suc)
+Escreval("----------------------")
+	Escreva("Digite um numero real: ")
+	Leia(num)
+	D <- num * 2
+	T <- num / 3
+	Escreval("O dobro de", num, " e", D)
+	Escreval("A terça parte de", num, " e ", T:6:5)
+Escreval("----------------------")
+      	Escreva("Digite uma distância em metros: ")
+      	Leia(Met)
+        Km <- Met / 1000
+        Hm <- Met / 100
+        Dam <- Met / 10
+        dm <- Met * 10
+        cm <- Met * 100
+        mm <- Met * 1000
+        Escreval("A distância de", Met, "m corresponde a: ")		      	Escreval(Km:6:5, "Km")
+        Escreval(Hm:6:4, "Hm")
+        Escreval(Dam:6:3, "Dam")
+        Escreval(dm:6:1, "dm")
+        Escreval(cm:6:1, "cm")
+        Escreval(mm:6:1, "mm")
+Escreval("----------------------")
+      Escreva("Digite o valor em reais: R$")
+      Leia(v1)
+      v2<- v1/5.20
+      Escreva("Você pode comprar U$ ", v2:4:2)
+Escreval("----------------------")
+      Escreva("Largura: ")
+      Leia(larg)
+      Escreva("Altura: ")
+      Leia(alt)
+      Area <- larg * alt
+      Calc <- Area / 4
+      Escreval("O calculo entre", larg, " e", alt, " e igual a", Area)
+      Escreval("A quantidade de tinta necessaria e", Calc)
+Escreval("----------------------")
+      Escreva("Digite o valor de a: ")
+      Leia(a)
+      Escreva("Digite o valor de b: ")
+      Leia(b)
+      Escreva("Digite o valor de c: ")
+      Leia(c)
+      delta <- b^2 - 4 * a * c
+      Escreval("O valor de a e ", a)
+      Escreval("O valor de a b ", b)
+      Escreval("O valor de a c ", c)
+      Escreva("O valor de delta e ", delta)
+Escreval("----------------------")
+      Escreval("-----------------")
+      Escreval("     DESCONTO    ")
+      Escreval("-----------------")
+      Escreva("Qual o valor do produto? R$")
+      Leia(valor)
+      desc <- valor * (5/100)
+      C <- valor - desc
+      Escreval("-----------------")
+      Escreval("PREÇO PROMOCIONAL")
+      Escreval("-----------------")
+      Escreval("R$", C)
+Escreval("----------------------")
+      Escreva("Nome do funcionario: ")
+      Leia(nome)
+      Escreva("salario: R$")
+      Leia(sal)
+      val <- sal * 15/100
+      R <- sal + val
+      Escreva(nome, " tera um aumento salarial de R$", R)
+Escreval("----------------------")
+      Escreva("Quantos quilometros foi percorrido? ")
+      Leia(Km)
+      Escreva("Quantos dias de locacao? ")
+      Leia(D)
+      v1 <- Km * 0.20
+      v2 <- D * 90
+      calc <- v1 + v2
+      Escreval("O veiculo percorreu", Km, "km por", D, " dias")
+      Escreval("O total a pagar pelo aluguel do carro e", calc)
+Escreval("----------------------")
+      Escreva("Dias trabalhados: ")
+      Leia(D)
+      horas <- 8
+      valor <- 25
+      calc <- horas * valor
+      tot <- D * calc
+      Escreva("O salario do funcionario em ", D, " sera de ", tot)
+Escreval("----------------------")
+      Escreva("Quantos cigarros? ")
+      Leia(QuantC)
+      Escreva("Quantos anos? ")
+      Leia(QuantA)
+      MinDia <- 1440
+      MinAno <- 525600
+      DiasAno <- 365
+      Dia <- QuantC * 10
+      Ano <- Dia * DiasAno
+      Sub <- MinAno - Ano
+      Conv <- Sub / 1440
+      SubDia <- DiasAno - Conv
+      Escreva("Você perdeu ", SubDia:1, " dias de vida")
